@@ -6,7 +6,7 @@
         <meta content="" name="description">
         <meta content="" name="keywords">
         <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/fontawesome.css">
+        <link rel="stylesheet" href="assets/css/fontawesome.css">
 
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -68,7 +68,11 @@
                             <button type="button" class="btn rounded-pill px-2 btn-rounded btn-pill">
                                 <span class="p-3">Get Started</span>
                             </button>
-                            <a><i class="fas fa-play-circle"></i><span>Watch Video</span></a>
+                            <a><img class="glightbox ms-3 mt-3" class="img-fluid" src="./assets/img/play-circle-regular.svg" alt="play circle">
+                                <span>
+                                    Watch Video
+                                </span>
+                            </a> 
                         </div>
                     </div>
                     <div class="col-md-6 intro__image">
@@ -88,7 +92,14 @@
             crossorigin="anonymous"></script>
 
         <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-
+        <script type="text/javascript">
+            const lightbox = GLightbox({
+                'href': 'https://www.youtube.com/watch?v=Ga6RYejo6Hk',
+                'type': 'video',
+                'source': 'youtube', //vimeo, youtube or local
+                'width': 900,
+            });
+        </script>
     </body>
 
 </html>

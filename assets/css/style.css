@@ -74,11 +74,21 @@ body {
   color: #fff;
   background: #47b2e4;
 }
+@media screen and (max-width: 576px) {
+  .intro__text __media {
+    margin-bottom: 20px;
+  }
+}
 .intro__text __media a {
   margin-right: 2px;
 }
 .intro__text __media span {
   margin-left: 3px;
+}
+@media screen and (max-width: 576px) {
+  .introintro__image img {
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
