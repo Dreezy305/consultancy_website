@@ -48,15 +48,23 @@ body {
       font-size: 48px;
       font-weight: 600;
       line-height: 56px;
+      @media screen and (max-width: 576px) {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 5px;
+      }
     }
     p {
       font-family: "Poppins";
       color: rgba(255, 255, 255, 0.6);
       font-size: 24px;
       margin-bottom: 50px;
+      @media screen and (max-width: 576px) {
+        font-size: 18px;
+      }
     }
     button {
-      margin-top: 50px;
       font-weight: 500;
       font-size: 16px;
       letter-spacing: 1px;
@@ -67,23 +75,26 @@ body {
       margin: 10px 0 0 0;
       color: #fff;
       background: #47b2e4;
-    }
-    & __media {
-      @media screen and (max-width: 576px) {
-        margin-bottom: 20px;
+
+      &:hover {
+        background: #209dd8;
       }
-      a {
-        margin-right: 2px;
+    }
+    a {
+      align-content: space-around;
+      img {
+        margin-right: 5px;
       }
       span {
-        margin-left: 3px;
+        font-family: "Poppins";
+        font-weight: 12px;
       }
     }
   }
   &intro__image {
     img {
       @media screen and (max-width: 576px) {
-        margin-top: 10px;
+        margin-top: 40px;
       }
     }
   }
