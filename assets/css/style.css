@@ -2,6 +2,7 @@ body {
   background-color: #444444;
 }
 
+/*  NavBar style goes here */
 .menu-bar {
   font-family: "Poppins", sans-serif;
   background: rgba(40, 58, 90, 0.9);
@@ -41,5 +42,7 @@ body {
     height: 75px;
   }
 }
+
+/* introduction section style goes here */
 
 /*# sourceMappingURL=style.css.map */
