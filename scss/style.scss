@@ -20,7 +20,8 @@ body {
   }
   & a {
     color: #ffffff;
-
+    margin-left: 20px;
+    padding-top: 15px;
     @media screen and (max-width: 576px) {
       display: inline;
       margin-left: 0px;
