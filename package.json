@@ -1,0 +1,14 @@
+{
+  "name": "consultancy-website",
+  "version": "1.0.0",
+  "description": "A buisness consultant website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "author": "idris",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.35.2"
+  }
+}
