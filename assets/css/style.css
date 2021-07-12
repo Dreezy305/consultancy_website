@@ -74,5 +74,11 @@ body {
   color: #fff;
   background: #47b2e4;
 }
+.intro__text __media a {
+  margin-right: 2px;
+}
+.intro__text __media span {
+  margin-left: 3px;
+}
 
 /*# sourceMappingURL=style.css.map */
