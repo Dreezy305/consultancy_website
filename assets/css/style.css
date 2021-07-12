@@ -1,6 +1,11 @@
 body {
-  font-family: "Courier New", Courier, monospace;
-  background-color: red;
+  background-color: #444444;
+}
+
+.menu {
+  font-family: "Poppins", sans-serif;
+  background: rgba(40, 58, 90, 0.9);
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
