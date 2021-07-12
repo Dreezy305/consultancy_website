@@ -8,20 +8,36 @@ body {
   margin-left: 20px;
   padding-top: 20px;
 }
+@media screen and (max-width: 576px) {
+  .menu-bar__icon {
+    position: absolute;
+    left: 1%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .menu-bar__icon span {
+    margin-left: 2px;
+  }
+}
 .menu-bar a {
   color: #ffffff;
-  margin-left: 20px;
-  padding-top: 15px;
 }
 @media screen and (max-width: 576px) {
   .menu-bar a {
     display: inline;
     margin-left: 0px;
+    padding-right: 0px;
   }
 }
 .menu-bar a menu-btn {
   margin-left: 20px;
   font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  .menu-bar a menu-btn {
+    width: 150px;
+    height: 75px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
