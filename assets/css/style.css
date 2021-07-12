@@ -44,5 +44,35 @@ body {
 }
 
 /* introduction section style goes here */
+.intro {
+  background: rgba(40, 58, 90, 0.9);
+}
+.intro__text {
+  margin-top: 10px;
+}
+.intro__text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.intro__text p {
+  font-family: "Poppins";
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.intro__text button {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
 
 /*# sourceMappingURL=style.css.map */
