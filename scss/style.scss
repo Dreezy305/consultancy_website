@@ -119,11 +119,8 @@ body {
 
 /* clients images style */
 .client {
-  img {
-    width: 40px;
-    height: 40px;
-    &:hover {
-      transform: scaleY(2);
-    }
+  background-color: blue;
+  &:hover {
+    transform: scaleY(2);
   }
 }
