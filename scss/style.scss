@@ -118,9 +118,11 @@ body {
 }
 
 /* clients images style */
-.client {
-  background-color: blue;
+.x {
+  filter: grayscale(100%);
+  background: red;
   &:hover {
-    transform: scaleY(2);
+    filter: none;
+    transform: scaleY(1.5);
   }
 }
