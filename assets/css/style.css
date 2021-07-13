@@ -103,6 +103,7 @@ body {
   font-weight: 12px;
 }
 
+/* intro image animation*/
 .animate_img {
   animation: MoveUpDown 5s linear infinite;
   position: relative;
@@ -118,5 +119,23 @@ body {
     bottom: 20px;
   }
 }
+/* clients images style */
+.client {
+  background-color: lightgray;
+}
+.client__images {
+  background-color: lightgray;
+}
+.client__images img {
+  margin-right: 5px;
+  filter: grayscale(100%);
+}
+.client__images img:hover {
+  filter: none;
+  transform: scaleY(1.5);
+  transition: width 2s linear 5s;
+}
+
+/* About Us style goes here */
 
 /*# sourceMappingURL=style.css.map */

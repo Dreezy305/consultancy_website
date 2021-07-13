@@ -94,10 +94,6 @@ body {
       }
     }
   }
-  // &intro__image {
-  //   img {
-  //   }
-  // }
 }
 
 /* intro image animation*/
@@ -118,11 +114,20 @@ body {
 }
 
 /* clients images style */
-.x {
-  filter: grayscale(100%);
-  background: red;
-  &:hover {
-    filter: none;
-    transform: scaleY(1.5);
+.client {
+  background-color: lightgray;
+  &__images {
+    background-color: lightgray;
+    img {
+      margin-right: 5px;
+      filter: grayscale(100%);
+      &:hover {
+        filter: none;
+        transform: scaleY(1.5);
+        transition: width 2s linear 5s;
+      }
+    }
   }
 }
+
+/* About Us style goes here */
