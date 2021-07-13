@@ -103,4 +103,20 @@ body {
   font-weight: 12px;
 }
 
+.animate_img {
+  animation: MoveUpDown 5s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 50% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

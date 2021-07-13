@@ -94,8 +94,24 @@ body {
       }
     }
   }
-  &intro__image {
-    img {
-    }
+  // &intro__image {
+  //   img {
+  //   }
+  // }
+}
+
+.animate_img {
+  animation: MoveUpDown 5s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+@keyframes MoveUpDown {
+  0%,
+  50% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 20px;
   }
 }
