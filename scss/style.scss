@@ -100,6 +100,7 @@ body {
   // }
 }
 
+/* intro image animation*/
 .animate_img {
   animation: MoveUpDown 5s linear infinite;
   position: relative;
@@ -113,5 +114,16 @@ body {
   }
   50% {
     bottom: 20px;
+  }
+}
+
+/* clients images style */
+.client {
+  img {
+    width: 40px;
+    height: 40px;
+    &:hover {
+      transform: scaleY(2);
+    }
   }
 }
