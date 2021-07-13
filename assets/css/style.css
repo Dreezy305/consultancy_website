@@ -88,6 +88,7 @@ body {
 }
 .intro__text button:hover {
   background: #209dd8;
+  transition: ease-in-out 2s;
 }
 .intro__text a {
   align-content: space-around;
@@ -98,11 +99,6 @@ body {
 .intro__text a span {
   font-family: "Poppins";
   font-weight: 12px;
-}
-@media screen and (max-width: 576px) {
-  .introintro__image img {
-    margin-top: 40px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
