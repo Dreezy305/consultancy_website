@@ -85,10 +85,12 @@ body {
   margin: 10px 0 0 0;
   color: #fff;
   background: #47b2e4;
+  transition: width 2s linear 5s;
 }
 .intro__text button:hover {
   background: #209dd8;
-  transition: ease-in-out 2s;
+  width: 200px;
+  height: 50px;
 }
 .intro__text a {
   align-content: space-around;

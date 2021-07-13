@@ -31,6 +31,7 @@ body {
     & menu-btn {
       margin-left: 20px;
       font-family: "Poppins", sans-serif;
+
       @media screen and (max-width: 576px) {
         width: 150px;
         height: 75px;
@@ -75,10 +76,11 @@ body {
       margin: 10px 0 0 0;
       color: #fff;
       background: #47b2e4;
-
+      transition: width 2s linear 5s;
       &:hover {
         background: #209dd8;
-        transition: ease-in-out 2s;
+        width: 200px;
+        height: 50px;
       }
     }
     a {
